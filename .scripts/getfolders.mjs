@@ -83,6 +83,7 @@ const index = `
     <script id="model">
         window.daily_projects = ${daily_projects};
     </script>
+    <script id="site" src="/.site/index.js"></script>
     </html>
 `;
 
