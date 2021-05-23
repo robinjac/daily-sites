@@ -3,7 +3,7 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(join(fileURLToPath(import.meta.url), ".."));
-const main_branches = ["master", "main", "devel", "develop"];
+const main_branches = ["master", "main", "develop"];
 
 const _getBranches = project => {
     
@@ -37,7 +37,7 @@ const _getProjects = dir => {
     readdirSync(dir)
         .forEach(filename => {
 
-            if(filename[0] !== ".") {
+            if(filename[0] !== "." && filename !== "www") {
                 
                 const filepath = dir + "/" + filename;
                 const stat = statSync(filepath);
@@ -80,10 +80,10 @@ const index = `
     <body>
         <div id="app"></div>
     </body>
-    <script id="model">
+    <script id="daily_site_model">
         window.daily_projects = ${daily_projects};
     </script>
-    <script id="site" src="/.site/index.js"></script>
+    <script id="daily_site_view" src="www/index.js"></script>
     </html>
 `;
 
