@@ -18,7 +18,7 @@ for (let project of daily_projects) {
         } else {
             htmlString += "<ul>";
             for (const branch of branches) {
-                htmlString += `<li><a href="${project.url}/${branch}">${branch}</a></li>`;
+                htmlString += `<li><a href="/daily-sites/${project.name}/${branch}">${branch}</a></li>`;
             }
             htmlString += "</ul>";
         }
