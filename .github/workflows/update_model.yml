@@ -1,5 +1,5 @@
 name: Update Daily Site
-on: [push]
+on: page_build
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
