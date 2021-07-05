@@ -1,0 +1,56 @@
+{
+    "ID": 1625484034486,
+    "REPOSITORY": "daily-sites",
+    "PROJECTS": [
+        {
+            "name": "awesome-apps",
+            "branches": {
+                "main": [
+                    {
+                        "name": "N/A",
+                        "slug": "develop",
+                        "created": "2021-07-06 0:37",
+                        "jira": "N/A"
+                    },
+                    {
+                        "name": "N/A",
+                        "slug": "master",
+                        "created": "2021-07-06 0:37",
+                        "jira": "N/A"
+                    }
+                ],
+                "release": [
+                    {
+                        "name": "N/A",
+                        "slug": "release-1.0.0",
+                        "created": "2021-07-06 0:37",
+                        "jira": "N/A"
+                    }
+                ],
+                "feature": [],
+                "user": [
+                    {
+                        "name": "N/A",
+                        "slug": "user-roja-nerp-123-testing-branch",
+                        "created": "2021-07-06 0:37",
+                        "jira": "N/A"
+                    }
+                ],
+                "other": [
+                    {
+                        "name": "N/A",
+                        "slug": "bugfix-here-comes-some-fixing",
+                        "created": "2021-07-06 0:37",
+                        "jira": "N/A"
+                    },
+                    {
+                        "name": "N/A",
+                        "slug": "derp",
+                        "created": "2021-07-06 0:37",
+                        "jira": "N/A"
+                    }
+                ]
+            }
+        }
+    ]
+}
