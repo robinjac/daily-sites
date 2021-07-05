@@ -1,5 +1,5 @@
 {
-    "ID": 1625484034486,
+    "ID": 1625528293363,
     "REPOSITORY": "daily-sites",
     "PROJECTS": [
         {
@@ -51,6 +51,24 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "elm-svelte-app",
+            "branches": {
+                "main": [],
+                "release": [],
+                "feature": [],
+                "user": [],
+                "other": [
+                    {
+                        "name": "refs/heads/master",
+                        "slug": "refs-heads-master",
+                        "created": "2021-07-05 23:38",
+                        "jira": "N/A"
+                    }
+                ]
+            },
+            "repository": "awesome-apps"
         }
     ]
 }
