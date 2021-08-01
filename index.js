@@ -3,7 +3,7 @@ const app = document.getElementById("app");
 
 let htmlString = "";
 
-fetch("http://robin.github.io/daily-sites/view-state.json")
+fetch("https://robin.github.io/daily-sites/view-state.json")
     .then(res => res.json())
     .then(json => {
         for (let project of json.projects) {
