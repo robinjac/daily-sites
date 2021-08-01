@@ -1,6 +1,0 @@
-
-    // We wrap in a JSON.parse to tell the js engine that it's just a json, which is faster to parse then an ordinary js object.
-    // https://v8.dev/blog/cost-of-javascript-2019#json.
-    window.AXIOM_DAILY_SITE_DATA = JSON.parse('{"ID":1625528293363,"REPOSITORY":"daily-sites","PROJECTS":[{"name":"awesome-apps","branches":{"main":[{"name":"N/A","slug":"develop","created":"2021-07-06 0:37","jira":"N/A"},{"name":"N/A","slug":"master","created":"2021-07-06 0:37","jira":"N/A"}],"release":[{"name":"N/A","slug":"release-1.0.0","created":"2021-07-06 0:37","jira":"N/A"}],"feature":[],"user":[{"name":"N/A","slug":"user-roja-nerp-123-testing-branch","created":"2021-07-06 0:37","jira":"N/A"}],"other":[{"name":"N/A","slug":"bugfix-here-comes-some-fixing","created":"2021-07-06 0:37","jira":"N/A"},{"name":"N/A","slug":"derp","created":"2021-07-06 0:37","jira":"N/A"}]}},{"name":"elm-svelte-app","branches":{"main":[],"release":[],"feature":[],"user":[],"other":[{"name":"refs/heads/master","slug":"refs-heads-master","created":"2021-07-05 23:38","jira":"N/A"}]},"repository":"awesome-apps"}]}');
-    // Prevent mutation.
-    Object.freeze(window.AXIOM_DAILY_SITE_DATA);
