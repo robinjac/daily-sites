@@ -3,16 +3,12 @@ const env = {
   OWNER: "robinjac",
   REPO: "daily-sites",
 };
-const mode = (mode) => ({
-  mode,
-});
 
 let htmlString = "";
 
-fetch(
-  "https://robinjac.github.io/daily-sites/view_state.json",
-  mode("same-origin")
-)
+fetch("https://robinjac.github.io/daily-sites/view_state.json", {
+  mode: "same-origin",
+})
   .then((res) => res.json())
   .then((json) => {
     for (let project of json.projects) {
@@ -51,7 +47,7 @@ fetch(url("")).then(async (response) => {
   for (const project of projects) {
     view_state[project.name] = {};
 
-    const res = await fetch(url(project.path), config);
+    const res = await fetch(url(project.path));
     const branches = await res.json();
 
     for (const branch of branches) {
