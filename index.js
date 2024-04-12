@@ -57,7 +57,5 @@ fetch(url()).then(async (response) => {
     view_state[project.name] = branches.map(({ name }) => name);
   }
 
-  console.log(view_state);
-
   app.insertAdjacentHTML("beforeend", viewHtmlString(view_state));
 });
