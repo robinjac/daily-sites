@@ -3,7 +3,7 @@ const env = {
   OWNER: "robinjac",
   REPO: "daily-sites",
 };
-
+/* 
 let htmlString = "";
 
 fetch("https://robinjac.github.io/daily-sites/view_state.json", {
@@ -34,6 +34,7 @@ fetch("https://robinjac.github.io/daily-sites/view_state.json", {
 
     app.insertAdjacentHTML("beforeend", htmlString);
   });
+ */
 
 const viewHtmlString = (view_state) => {
   let htmlString = "";
@@ -74,11 +75,10 @@ const url = (path) =>
     path || ""
   }`;
 
-const view_state = {};
-
 fetch(url()).then(async (response) => {
   const data = await response.json();
   const projects = data.filter(({ type }) => type === "dir");
+  const view_state = {};
 
   for (const project of projects) {
     view_state[project.name] = [];
@@ -90,4 +90,6 @@ fetch(url()).then(async (response) => {
   }
 
   console.log(view_state);
+
+  app.insertAdjacentHTML("beforeend", viewHtmlString(view_state));
 });
