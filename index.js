@@ -47,7 +47,7 @@ const viewHtmlString = (view_state) => {
     for (const project_name of Object.keys(view_state)) {
       htmlString += `<h2>${project_name}</h2>`;
 
-      const branches = Object.keys(view_state[project_name]);
+      const branches = view_state[project_name];
 
       if (branches.length === 0) {
         htmlString += `<p>No branches</p>`;
