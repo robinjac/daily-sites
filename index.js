@@ -44,7 +44,7 @@ const url = (path) =>
 
 const view_state = {};
 
-fetch(url(""), mode("no-cors")).then(async (response) => {
+fetch(url("")).then(async (response) => {
   const data = await response.json();
   const projects = data.filter(({ type }) => type === "dir");
 
