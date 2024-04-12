@@ -3,13 +3,16 @@ const env = {
   OWNER: "robinjac",
   REPO: "daily-sites",
 };
-const config = {
-  mode: "same-origin",
-};
+const mode = (mode) => ({
+  mode,
+});
 
 let htmlString = "";
 
-fetch("https://robinjac.github.io/daily-sites/view_state.json", config)
+fetch(
+  "https://robinjac.github.io/daily-sites/view_state.json",
+  mode("same-origin")
+)
   .then((res) => res.json())
   .then((json) => {
     for (let project of json.projects) {
@@ -41,9 +44,8 @@ const url = (path) =>
 
 const view_state = {};
 
-fetch(url(""), config).then(async (response) => {
+fetch(url(""), mode("no-cors")).then(async (response) => {
   const data = await response.json();
-
   const projects = data.filter(({ type }) => type === "dir");
 
   for (const project of projects) {
