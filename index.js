@@ -59,7 +59,7 @@ fetch(url()).then(async (response) => {
     }
   }
 
-  console.lopg(view_state);
+  console.lop(view_state);
 
   app.insertAdjacentHTML("beforeend", viewHtmlString(view_state));
 });
