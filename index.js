@@ -15,20 +15,16 @@ const viewHtmlString = (view_state) => {
     for (const project_name of projects) {
       htmlString += `<h2>${project_name}</h2>`;
 
-      const branches = view_state[project_name];
+      const branches = Object.keys(view_state[project_name]);
 
       if (branches.length === 0) {
         htmlString += `<p>No branches</p>`;
       } else {
         htmlString += "<ul>";
-        for (const branch of branches) {
-          const [name, date] = branch.split("?");
+        for (const branch_name of branches) {
+          const { name, date } = branches[branch_name];
 
-          htmlString += `<li><a href="/${
-            env.REPO
-          }/${project_name}/${branch}">${name}</a> <span>${
-            date ? date.replace("T", " ") : "N/A"
-          }</span></li>`;
+          htmlString += `<li><a href="/${env.REPO}/${project_name}/${branch_name}/branch">${name}</a> <span>${date}</span></li>`;
         }
         htmlString += "</ul>";
       }
@@ -49,13 +45,21 @@ fetch(url()).then(async (response) => {
   const view_state = {};
 
   for (const project of projects) {
-    view_state[project.name] = [];
+    view_state[project.name] = {};
 
     const res = await fetch(url(project.path));
     const branches = await res.json();
 
-    view_state[project.name] = branches.map(({ name }) => name);
+    for (const branch of branches) {
+      const res = await fetch(
+        `https://raw.githubusercontent.com/${env.OWNER}/${env.REPO}/${project.name}/${branch.name}/branch.json`
+      );
+
+      view_state[project.name][branch.name] = await res.json();
+    }
   }
+
+  console.lopg(view_state);
 
   app.insertAdjacentHTML("beforeend", viewHtmlString(view_state));
 });
