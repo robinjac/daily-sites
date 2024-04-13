@@ -52,7 +52,7 @@ fetch(url()).then(async (response) => {
 
     for (const branch of branches) {
       const res = await fetch(
-        `https://raw.githubusercontent.com/${env.OWNER}/${env.REPO}/${project.name}/${branch.name}/branch.json`
+        `https://raw.githubusercontent.com/${env.OWNER}/${env.REPO}/master/${project.name}/${branch.name}/branch.json`
       );
 
       view_state[project.name][branch.name] = await res.json();
