@@ -24,7 +24,11 @@ const viewHtmlString = (view_state) => {
         for (const branch_name of branches) {
           const { name, date } = view_state[project_name][branch_name];
 
-          htmlString += `<li><a href="/${env.REPO}/${project_name}/${branch_name}/branch">${name}</a> <span>${date}</span></li>`;
+          htmlString += `<li><a href="/${
+            env.REPO
+          }/${project_name}/${branch_name}/branch">${name}</a> <span>${new Date(
+            date
+          ).toLocaleString()}</span></li>`;
         }
         htmlString += "</ul>";
       }
