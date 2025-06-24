@@ -1,1 +1,0 @@
-import{j as s}from"./index-CbWkDt6Q.js";const a=()=>s.jsxs("div",{className:"prose",children:[s.jsx("h1",{children:"AVLOPP"}),s.jsx("article",{dangerouslySetInnerHTML:{__html:"<p>Rensning av avlopp fram till stam bekostas av lägenhetsinnehavaren.</p>"}})]});export{a as default};
