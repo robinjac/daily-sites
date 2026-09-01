@@ -1,0 +1,524 @@
+[
+  {
+    "type": "home",
+    "canonicalPathname": "/",
+    "templateId": "news-index",
+    "wordpressId": null,
+    "modified": "2026-08-25T20:56:38.000Z",
+    "seo": {
+      "title": "BRF Tornen i Jakobsberg, Järfälla | Boendeinformation",
+      "description": "Information för boende och mäklare i BRF Tornen på Tornérplatsen 30–32 i Jakobsberg: nyheter, felanmälan, dokument, tvättstuga, bastu och kontakt.",
+      "imageUrl": "https://robinjac.github.io/daily-sites/robinjac-brftornen/main/branch/showcase/tornen-0-1280.jpeg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "post-archive",
+    "canonicalPathname": "/nyheter/",
+    "templateId": "post-archive",
+    "wordpressId": null,
+    "modified": "2026-08-25T20:56:38.000Z",
+    "seo": {
+      "title": "Nyheter",
+      "description": "Information och meddelanden från BRF Tornen i Jakobsberg, senast publicerade först.",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/andrahandsuthyrning/",
+    "templateId": "page",
+    "wordpressId": 291,
+    "modified": "2025-09-30T18:48:01.000Z",
+    "seo": {
+      "title": "ANDRAHANDSUTHYRNING",
+      "description": "För att få hyra ut din bostad i andra hand måste du ha ett godkännande av styrelsen. Du ska även ha giltiga skäl för att få hyra ut bostaden. Blanketten…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/atervinningsrum/",
+    "templateId": "page",
+    "wordpressId": 287,
+    "modified": "2024-02-20T19:01:54.000Z",
+    "seo": {
+      "title": "ÅTERVINNINGSRUM",
+      "description": "Återvinningsrummet finns på plan 0.Sortera dina sopor, behållare finns för: Är du osäker på hur du ska sortera dina sopor finns information på denna…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/02/El-avfall.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/autogiro-och-e-faktura/",
+    "templateId": "page",
+    "wordpressId": 457,
+    "modified": "2024-02-20T19:53:22.000Z",
+    "seo": {
+      "title": "E-FAKTURA OCH AUTOGIRO",
+      "description": "E-faktura HSB har möjlighet att skicka e-faktura vilket du beställer via din internetbank genom att ange avtalsnumret för ditt avtal som du hittar på din avi…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/avlopp/",
+    "templateId": "page",
+    "wordpressId": 465,
+    "modified": "2026-08-26T09:40:46.000Z",
+    "seo": {
+      "title": "AVLOPP",
+      "description": "Rensning av avlopp fram till stam bekostas av lägenhetsinnehavaren.",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/bastu/",
+    "templateId": "page",
+    "wordpressId": 285,
+    "modified": "2024-03-05T18:47:59.000Z",
+    "seo": {
+      "title": "BASTU",
+      "description": "Vi har två bastur, en på plan 3 i T30 och på våning 16 i T32 vid föreningslokalen. Bokning sker via bokningstavlorna på plan 3.Glöm inte att stänga av bastun…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/02/R.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/cykelforrad/",
+    "templateId": "page",
+    "wordpressId": 440,
+    "modified": "2025-01-13T19:56:14.000Z",
+    "seo": {
+      "title": "CYKELFÖRRÅD/KÄLLARFÖRRÅD",
+      "description": "Cyklar förvaras med fördel i cykelhuset på Lansengården. Tillträde sker med nyckelbricka. KÄLLARFÖRRÅD Till varje lägenhet hör ett källarförråd. Vi uppmanar…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/felanmalan/",
+    "templateId": "page",
+    "wordpressId": 188,
+    "modified": "2024-02-20T18:32:53.000Z",
+    "seo": {
+      "title": "FELANMÄLAN",
+      "description": "Felanmälan hissar – KONE tel: 077-1500000. Övrig felanmälan sker till vår förvaltare HSB tel: 010-4421100.Där finns en person som tar emot ditt samtal på…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/02/OIP.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/forsakring/",
+    "templateId": "page",
+    "wordpressId": 461,
+    "modified": "2024-02-20T19:55:48.000Z",
+    "seo": {
+      "title": "FÖRSÄKRING",
+      "description": "Bostadsrättstillägg Föreningen har tecknat en försäkring som täcker det så kallade bostadsrättstillägget. Det betyder att du inte behöver göra det själv.…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/hem/",
+    "templateId": "template-fullwidth-stretched.php",
+    "wordpressId": 486,
+    "modified": "2024-03-05T19:04:02.000Z",
+    "seo": {
+      "title": "HEM",
+      "description": "Välkommen till Brf Tornen! Brf Tornen är en bostadsrättsförening belägen i Jakobsberg, Järfälla.",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/historia/",
+    "templateId": "page",
+    "wordpressId": 437,
+    "modified": "2024-02-18T15:04:59.000Z",
+    "seo": {
+      "title": "HISTORIA",
+      "description": "Bakgrund till bildandet av Brf Tornen Vid mitten av 10-talet ägde Citycon inte bara köpcentret i Jakobsberg utan även ett antal hyresfastigheter. Flera av…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/info/",
+    "templateId": "page",
+    "wordpressId": 256,
+    "modified": "2024-02-08T18:53:59.000Z",
+    "seo": {
+      "title": "TRIVSEL OCH GEMENSAMMA YTOR",
+      "description": "LOKALERTVÄTTSTUGORBASTUÅTERVINNINGSRUMTRIVSELREGLERSTÖRNINGCYKELFÖRRÅDKÄLLARFÖRRÅDRÅD, REGLER & TIPS",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/inglasning-av-balkong/",
+    "templateId": "page",
+    "wordpressId": 548,
+    "modified": "2024-03-05T18:24:46.000Z",
+    "seo": {
+      "title": "INGLASNING AV BALKONG",
+      "description": "Bygglov: Du måste själv ansöka hos kommunen om bygglov. Bygganmälan: Du måste själv göra en bygganmälan till kommunen. Kontakta kommunens Kundtjänst 08-580…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/maklarinfo/",
+    "templateId": "page",
+    "wordpressId": 443,
+    "modified": "2025-01-13T20:01:31.000Z",
+    "seo": {
+      "title": "MÄKLARINFO",
+      "description": "Mäklarinformation BRF-Tornen i Järfälla Organisation nummer 769620-5322 – Byggnaderna är uppförda under åren 1993 – Totalt finns 82 stycken bostadsrätter och…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/kontakt/",
+    "templateId": "page",
+    "wordpressId": 194,
+    "modified": "2025-06-11T17:38:57.000Z",
+    "seo": {
+      "title": "KONTAKT",
+      "description": "Felanmälan hissar – KONE tel. 077-150 00 00. Övrig felanmälan – sker till vår förvaltare HSB tel. 010-442 11 00. Störningsjouren: 08-568 214 00 Styrelsen:…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/02/Kontakt.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/lasbrickor-tags/",
+    "templateId": "page",
+    "wordpressId": 459,
+    "modified": "2024-02-18T15:16:55.000Z",
+    "seo": {
+      "title": "NYCKELBRICKOR/TAGS",
+      "description": "Nyckelbrickor eller allmänt kallat “tags”, “låstag” eller ”blipp”. Om ni behöver ny nyckelbricka till våra fastigheter kan ni köpa den hos föreningens…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/lastfaret/",
+    "templateId": "page",
+    "wordpressId": 455,
+    "modified": "2024-09-10T21:30:27.000Z",
+    "seo": {
+      "title": "LASTFARET",
+      "description": "Tillgång till lastfaret För öppning av dörr från insidan tryck på ”nyckel” knappen.",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/lokaler/",
+    "templateId": "page",
+    "wordpressId": 281,
+    "modified": "2024-03-05T18:49:40.000Z",
+    "seo": {
+      "title": "LOKALER",
+      "description": "Föreningen äger två samlingslokaler som kan utnyttjas av föreningens medlemmar kostnadsfritt.Viktigt att tänka på är att detta innebär att man inte får låna…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/rad-regler-tips/",
+    "templateId": "page",
+    "wordpressId": 445,
+    "modified": "2024-02-20T19:31:22.000Z",
+    "seo": {
+      "title": "RÅD, REGLER & TIPS",
+      "description": "Omtanke och sunt förnuft gör vårt boende trevligare. Inga regler kan ersätta hänsyn. Liv och rörelse hör till vardagen i ett flerbostadshus. Att bo nära andra…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/boendeinformation/",
+    "templateId": "page",
+    "wordpressId": 167,
+    "modified": "2024-02-08T19:07:16.000Z",
+    "seo": {
+      "title": "BOENDEINFORMATION",
+      "description": "TV/BREDBANDANDRAHANDSUTHYRNINGLÅSBRICKOR/TAGSAUTOGIRO OCH E-FAKTURALASTFARETFÖRSÄKRINGSPISKÅPAAVLOPP",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/spiskapa/",
+    "templateId": "page",
+    "wordpressId": 463,
+    "modified": "2024-02-20T19:37:28.000Z",
+    "seo": {
+      "title": "SPISKÅPA/FLÄKT",
+      "description": "Om du skall renovera ditt kök och byta fläkt eller spiskåpa skall du tänka på att det finns två typer av fläktar som du får använda! I flerbostadshus med en…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/stadgar-dokument/",
+    "templateId": "page",
+    "wordpressId": 418,
+    "modified": "2026-05-05T17:51:02.000Z",
+    "seo": {
+      "title": "STADGAR OCH DOKUMENT",
+      "description": "STADGAR Stadgar BRF Tornen ÅRSSTÄMMOR Årsstämma 2023 Årsstämma 2024 Årsstämma 2025 Extrastämma 2024 Extrastämma 2025 ÅRSREDOVISNINGAR Årsredovisning 2022…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/03/OIP.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/storning/",
+    "templateId": "page",
+    "wordpressId": 293,
+    "modified": "2024-02-20T19:22:13.000Z",
+    "seo": {
+      "title": "STÖRNING",
+      "description": "Störande grannar Brf Tornen har beslutat att det ej är tillåtet att utföra störande arbete eller åstadkomma annat störande ljud i lägenheten under dessa…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/02/storning.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/styrelsen/",
+    "templateId": "page",
+    "wordpressId": 118,
+    "modified": "2025-06-11T17:38:01.000Z",
+    "seo": {
+      "title": "STYRELSEN",
+      "description": "Ni kommer enklast i kontakt med styrelsen via info@brftornen.se Aktuell styrelse: OrdförandeHalil Gökalp, halil@brftornen.se, 076-632 15 05 Vice…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/01/ladda-ned-1.jpg",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/tv-bredband/",
+    "templateId": "page",
+    "wordpressId": 279,
+    "modified": "2025-01-05T13:04:04.000Z",
+    "seo": {
+      "title": "TV/BREDBAND",
+      "description": "TV I avgiften ingår ett antal kanaler från Tele2. Enklast hittar du dem genom att låta din TV-apparat själv söka upp dem. Om du vill ha ett större utbud, t ex…",
+      "imageUrl": "https://www.brftornen.se/wp-content/uploads/2024/02/Telenor.png",
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/tvattstugor/",
+    "templateId": "page",
+    "wordpressId": 283,
+    "modified": "2024-02-20T19:02:33.000Z",
+    "seo": {
+      "title": "TVÄTTSTUGOR",
+      "description": "Bokning av tvättstugorna Tvättiderna bokas på den elektroniska bokningstavlan plan 3 vid hissarna eller Aptus home appen.Så här går tvättstugebokning till:–…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "page",
+    "canonicalPathname": "/ytterdorr/",
+    "templateId": "page",
+    "wordpressId": 541,
+    "modified": "2024-02-20T19:39:48.000Z",
+    "seo": {
+      "title": "YTTERDÖRR",
+      "description": "Ny ytterdörr Om du skall byta din ytterdörr till antingen säkerhetsdörr eller en ny vanlig, så har styrelsen bestämt att färgen ek skall gälla, detta för att…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  },
+  {
+    "type": "post",
+    "canonicalPathname": "/2026/08/25/valkommen-till-var-nya-webbplats/",
+    "templateId": "post",
+    "wordpressId": 787,
+    "modified": "2026-08-25T20:56:38.000Z",
+    "seo": {
+      "title": "Välkommen till vår nya webbplats!",
+      "description": "Vi är glada att kunna välkomna dig till BRF Tornens nya webbplats! Här har vi samlat viktig och aktuell information för dig som bor i föreningen. Du hittar…",
+      "imageUrl": null,
+      "robots": "index,follow"
+    },
+    "assets": {
+      "blockStyles": [],
+      "scriptModules": []
+    },
+    "spaSafe": true
+  }
+]

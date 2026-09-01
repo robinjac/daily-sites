@@ -1,4 +1,4 @@
 User-agent: *
-  Allow: /
+Allow: /
 
-  Sitemap: https://robinjac.github.io/daily-sites/robinjac-brftornen/main/branch/sitemap.xml
+Sitemap: https://robinjac.github.io/daily-sites/robinjac-brftornen/main/branch/sitemap.xml
